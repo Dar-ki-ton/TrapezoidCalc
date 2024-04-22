@@ -1,0 +1,52 @@
+html {
+  background: url(img/shape.png);
+}
+
+body {
+  width: 600px;
+  background: rgba(255, 255, 255, 0.9);
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px 40px;
+  margin: 20px auto;
+}
+
+#formula {
+  width: 500px;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid lightgray;
+  font-size: 20px;
+  width: 200px;
+}
+
+img {
+  width: 20px;
+}
+
+button {
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  border: 2px solid lightgray;
+
+  transition: background 1s;
+}
+
+button:hover {
+  background: darkgray;
+  transition: background 1s;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
